@@ -1,7 +1,7 @@
 package alphavantage
 
 type QuoteWrapper struct {
-	GlobalQuote Quote `json:"Global Quote"`
+	GlobalQuote *Quote `json:"Global Quote"`
 }
 
 type Quote struct {
